@@ -17,27 +17,42 @@ const questions = [
         message: 'What was your motivation to build this project?',
     },
     {
+        type: "input",
+        name: "description",
+        message: "Describe the project.",
+    },
+    {
+        type: "input",
+        name: "features",
+        message: "List any features of the project.",
+    },
+    {
+        type: "input",
+        name: "technology",
+        message: "What technologies were used for this project.",
+    },
+    {
+        type: "input",
+        name: "challenges",
+        message: "Detail any challenges incurrred when creating project?",
+    },
+    {
+        type: "input",
+        name: "contributions",
+        message: "Did you have any contributers on this project?""List and acknowledge all contributers, if any.",
+    },
+    {
+        type: "input",
+        name: "screenshot",
+        message: "Include a screenshot and/or video.",
+    },
+    {
         type: "list",
         name: "license",
         message: "If applicable, choose a license that your project is licensed with.",
         choices: ["Apache license 2.0", "GPL", "MIT", "BSD 3", "None"]
     }
     
-
-
-    // 'What issue does this problem solve?',
-
-    // 'Describe the project',
-
-    // 'List any features of the project.',
-
-    // 'List all technologies used for this project.',
-
-    // 'Describe any challenges incurrred when creating project?',
-
-    // 'List and acknowledge all contributers, if any.',
-
-   // 'Do not forget to provide screenshots and/or video.'    
 ];
 
 // TODO: Create a function to write README file
