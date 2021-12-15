@@ -20,7 +20,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "If applicable, choose a license that your project is licensed with.",
-        choices: ["Apache license 2.0", "ISC", "MIT", "BSD 3", "None"]
+        choices: ["Apache license 2.0", "GPL", "MIT", "BSD 3", "None"]
     }
     
 
@@ -37,9 +37,7 @@ const questions = [
 
     // 'List and acknowledge all contributers, if any.',
 
-    // 'Provide licenses',
-
-    // 'Do not forget to provide screenshots and/or video.'    
+   // 'Do not forget to provide screenshots and/or video.'    
 ];
 
 // TODO: Create a function to write README file

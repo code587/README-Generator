@@ -1,10 +1,35 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+
+
+
+function renderLicenseBadge(license) {
+  let chosenLicense = license
+  let licenseBadge = ""
+  if (chosenLicense === "Apache license 2.0") {
+    licenseBadge = "![License: Apache license 2.0](https://img.shields.io/badge/License-Apachelicense2.0-orange)"
+  }
+  else if (chosenLicense === "GNU General Public License") {
+    licenseBadge = "![License: GNU General Public License](https://img.shields.io/badge/License-GNU General Public License-green)"
+  }
+  
+  console.log(license);
+  return licenseBadge;
+}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let licenseLink = ""
+  if (chosenLicense === "Apache license 2.0") {
+    licenseLink = "![License: Apache license 2.0](https://www.apache.org/licenses/)"
+  }
+  else if (chosenLicense === "GPL") {
+    licenseLink = "![License: GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)"
+  }
+    return licenseLink;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -24,6 +49,7 @@ function generateMarkdown(data) {
 
   This project is licensed under the ${data.license} license.
 
+  ${renderLicenseBadge(data.license)}
 `;
 }
 

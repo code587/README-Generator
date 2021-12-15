@@ -1,13 +1,11 @@
-# ReadMe Generator
+# readme
 
   ## Purpose
   
-  To help write good ReadMe.md files
+  because
 
   ## License
 
-  This project is licensed under the ISC license.
+  This project is licensed under the Apache license 2.0 license.
 
-# README.md-generator
-# README-generator
-# README-generator
+  ![License: Apache license 2.0](https://img.shields.io/badge/License-Apachelicense2.0-orange)
