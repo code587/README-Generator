@@ -1,8 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
-
-
+// Renders the license badge for the chosen license
 function renderLicenseBadge(license) {
   let chosenLicense = license
   let licenseBadge = ""
@@ -18,17 +14,16 @@ function renderLicenseBadge(license) {
   else if(chosenLicense === "BSD") {
     licenseBadge = "![License: BSD](https://img.shields.io/badge/License-BSD-blue)"
   }
-  else if(chosenLicense === "None") {
-    licenseBadge = ""
-  }
+  // else if(chosenLicense === "None") {
+  // licenseBadge = " "
+  // }
   
   console.log(license);
   return licenseBadge;
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Renders the link for the license chosen
 function renderLicenseLink(license) {
   let linkToLicense = license
   let licenseLink = ""
@@ -51,46 +46,56 @@ function renderLicenseLink(license) {
     return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Renders the license section for the README.md 
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// generates markdown for the sample README
 function generateMarkdown(data) {
   console.log("USER ANSWERS FROM INDEX.js", data)
 
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
   ## Purpose
-  
   ${data.purpose}
 
   ## Description
   ${data.description}
 
-  ## Features
-  ${data.features}
+  ## Table of Contents
+  ${data.tableOfContents}
 
   ## Technology
   ${data.technology}
 
-  ## Challenges
-  ${data.challenges}
+  ## Installation
+  ${data.installation}
 
-  ## Contributers
+  ## Usage
+  ${data.usage}
+
+  ## Contributing
   ${data.contributers}
 
-  ## Screenshot / Video
-  ${data.screenshot}
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+  Github profile is "![Github profile](https://github.com/${data.questions})" 
+
+  I can also be reached for questions at the email address  ${data.email}.
+
 
   ## License
 
   This project is licensed under the ${data.license} license.
 
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)} 
 
-  ${renderLicenseLink(data.license)}
-  
+
+  ## Screenshot / Video
+  ${data.screenshot}
 `;
 }
 
