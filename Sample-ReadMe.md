@@ -1,30 +1,27 @@
-# README.md
+# README-generator
 
   ![License: Apache license 2.0](https://img.shields.io/badge/License-Apachelicense2.0-orange)
 
-  ## Purpose
-  you
-
   ## Description
-  it works to generate a githu readme
+  This app generates a README.md automatically once you have loaded it in your code editor and answered all of the questions as directed. It will automatically load a license badge and link to the license. 
 
   ## Table of Contents
-  title description usage
+  Title Description Technology Installation Instructions
 
   ## Technology
-  interior
+  node.js inquirer
 
   ## Installation
-  just do it
+  Make sure you have node.js and inquirer installed on your editor. Please create a gitignore file and list node_modules and .DS_Store in the file prior to installing any npm dependicies. 
 
   ## Usage
-  for alot
+  To include in your github repository for your app.
 
   ## Contributing
-  me, you
+  Tiff
 
   ## Tests
-  none
+  node index.js
 
   ## Questions
   Github profile is "![Github profile](https://github.com/code587)" 
@@ -38,6 +35,3 @@
 
   ![License: Apache license 2.0](https://www.apache.org/licenses/) 
 
-
-  ## Screenshot / Video
-  ok

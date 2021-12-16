@@ -13,11 +13,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "purpose",
-        message: 'What is the purpose of this app/project?',
-    },
-    {
-        type: "input",
         name: "description",
         message: "Describe the app/project.",
     },
@@ -67,11 +62,6 @@ const questions = [
         name: "email",
         message: "Enter your email address for additional contact information."
     },
-    {
-        type: "input",
-        name: "screenshot",
-        message: "Include a screenshot and/or video.",
-    },  
 ];
 
 // writes to README.md file

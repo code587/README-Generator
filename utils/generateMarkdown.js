@@ -57,9 +57,6 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-  ## Purpose
-  ${data.purpose}
-
   ## Description
   ${data.description}
 
@@ -93,9 +90,6 @@ function generateMarkdown(data) {
 
   ${renderLicenseLink(data.license)} 
 
-
-  ## Screenshot / Video
-  ${data.screenshot}
 `;
 }
 
