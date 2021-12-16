@@ -38,8 +38,9 @@ const questions = [
     },
     {
         type: "input",
-        name: "contributions",
-        message: "Did you have any contributers on this project?""List and acknowledge all contributers, if any.",
+        name: "contributers",
+        message: "Did you have any contributers on this project?"
+        //"List and acknowledge all contributers, if any.",
     },
     {
         type: "input",

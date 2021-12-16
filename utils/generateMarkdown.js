@@ -47,6 +47,24 @@ function generateMarkdown(data) {
   
   ${data.purpose}
 
+  ## Description
+  ${data.description}
+
+  ## Features
+  ${data.features}
+
+  ## Technology
+  ${data.technology}
+
+  ## Challenges
+  ${data.challenges}
+
+  ## Contributers
+  ${data.contributers}
+
+  ## Screenshot / Video
+  ${data.screenshot}
+
   ## License
 
   This project is licensed under the ${data.license} license.
