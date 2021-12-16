@@ -10,7 +10,13 @@ function renderLicenseBadge(license) {
     licenseBadge = "![License: Apache license 2.0](https://img.shields.io/badge/License-Apachelicense2.0-orange)"
   }
   else if (chosenLicense === "GNU General Public License") {
-    licenseBadge = "![License: GNU General Public License](https://img.shields.io/badge/License-GNU General Public License-green)"
+    licenseBadge = "![License: GNU General Public License](https://img.shields.io/badge/License-GNU-General-Public License-green)"
+  }
+  else if (chosenLicense === "MIT") {
+    licenseBadge = "![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet)"
+  }
+  else if (chosenLicense === "BSD") {
+    licenseBadge = "![License: BSD](https://img.shields.io/badge/License-BSD-blue)"
   }
   
   console.log(license);

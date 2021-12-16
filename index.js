@@ -39,7 +39,7 @@ const questions = [
     {
         type: "input",
         name: "contributers",
-        message: "Did you have any contributers on this project?"
+        message: "Acknowledge any contributers on this project and input their information."
         //"List and acknowledge all contributers, if any.",
     },
     {
