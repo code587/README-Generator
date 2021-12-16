@@ -15,8 +15,11 @@ function renderLicenseBadge(license) {
   else if (chosenLicense === "MIT") {
     licenseBadge = "![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet)"
   }
-  else if (chosenLicense === "BSD") {
+  else if(chosenLicense === "BSD") {
     licenseBadge = "![License: BSD](https://img.shields.io/badge/License-BSD-blue)"
+  }
+  else if(chosenLicense === "None") {
+    licenseBadge = ""
   }
   
   console.log(license);
@@ -33,7 +36,16 @@ function renderLicenseLink(license) {
     licenseLink = "![License: Apache license 2.0](https://www.apache.org/licenses/)"
   }
   else if (linkToLicense === "GPL") {
-    licenseLink = "![License: GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)"
+    licenseLink = "![License: GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html)"
+  }
+  else if (linkToLicense === "MIT") {
+    licenseLink = "![License: MIT](https://mit-license.org/)"
+  }
+  else if (linkToLicense === "BSD") {
+    licenseLink = "![License: BSD](https://opensource.org/licenses/BSD-2-Clause)"
+  }
+  else if (linkToLicense === "None") {
+    licenseLink = ""
   }
     console.log(linkToLicense)
     return licenseLink;

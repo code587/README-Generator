@@ -2,31 +2,31 @@
 
   ## Purpose
   
-  ease of creating one
+  help with the difficulty of creating a README.md
 
   ## Description
-  This project will take the  difficulties out of creating a readme
+  You can generate a README.md with this project.  It provides a list of questions that should be included
 
   ## Features
-  It is an auto generated readme
+  It is automated.  License badges and links are automatically attached if used and included in list.
 
   ## Technology
   inquirer
 
   ## Challenges
-  
+  none
 
   ## Contributers
-  no
+  me
 
   ## Screenshot / Video
   ok
 
   ## License
 
-  This project is licensed under the GPL license.
+  This project is licensed under the None license.
 
   
 
-  ![License: GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  
   
